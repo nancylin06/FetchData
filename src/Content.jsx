@@ -19,12 +19,12 @@ export default function Content() {
             <div className="container w-[30rem] bg-cyan-50 flex flex-col p-5 space-y-10">
                 <form>
                     <select name="allNames" className="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-cyan-500 focus:ring-cyan-500 block w-full rounded-md sm:text-sm focus:ring-1 tracking-widest text-4xl" value={product} onChange={optionsChanged}>
-                        <option value="qui est esse" id="2">qui est esse</option>
-                        <option value="eveniet quod temporibus" id="15">eveniet quod temporibus</option>
-                        <option value="est et quae odit qui non" id="26">est et quae odit qui non</option>
-                        <option value="magnam ut rerum iure" id="34">magnam ut rerum iure</option>
-                        <option value="non est facere" id="41">non est facere</option>
-                        <option value="sed ab est est" id="57">sed ab est est</option>
+                        <option value="qui est esse">qui est esse</option>
+                        <option value="eveniet quod temporibus">eveniet quod temporibus</option>
+                        <option value="est et quae odit qui non">est et quae odit qui non</option>
+                        <option value="magnam ut rerum iure">magnam ut rerum iure</option>
+                        <option value="non est facere">non est facere</option>
+                        <option value="sed ab est est">sed ab est est</option>
                     </select>
                 </form>
                 {apidata &&
